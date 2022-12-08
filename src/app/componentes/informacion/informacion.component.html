@@ -1,0 +1,16 @@
+<section class="row"><!--Sección Acerca de...Contiene información referente
+    a Luis G. Hernandez. Imagen de Perfil, Breve Descripción-->
+    <div class="imgTitulo row col-sm-12 col-md-4 col-lg-4">
+        <img class="col-sm-12 col-md-12 col-lg-12 imagenPerfil img-fluid" [src]="miPortfolio?.fotoPerfil" alt="Imagen de Perfil">
+        <p class="infoPersonal text-center mt-3 col-sm-12 col-md-12 col-lg-12"><strong>{{miPortfolio?.profesion}}</strong></p>
+        <p class="infoPersonal text-center col-sm-12 col-md-12 col-lg-12">{{miPortfolio?.nombre}}</p>
+        <p class="infoPersonal text-center col-sm-12 col-md-12 col-lg-12">{{miPortfolio?.ubicacion}}</p>
+        <p class="infoPersonal text-center col-sm-12 col-md-12 col-lg-12">{{miPortfolio?.email}}</p>
+        <i class="fa-solid fa-square-pen p-1 h3 m-0 pointer"></i>
+    </div>
+    <div class="tituloTexto col-sm-12 col-md-8 col-lg-8">
+        <h2>Acerca de...</h2>
+        <p>{{miPortfolio?.acercaDe}}</p>
+        <i class="fa-solid fa-square-pen p-1 h3 m-0 pointer"></i>
+    </div>             
+</section>

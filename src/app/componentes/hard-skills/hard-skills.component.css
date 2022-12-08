@@ -1,0 +1,19 @@
+
+
+.skills {
+    width: 100%;
+}
+
+@media (min-width: 468px) {
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        list-style-type: none;
+        
+    }
+}
+
+
+.skill > div {
+    width: 100%;
+}

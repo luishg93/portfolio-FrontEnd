@@ -1,0 +1,76 @@
+    {
+        "imgArgentinaPrograma": "../../assets/img/logoArgProg.png",
+        "nombre": "Luis Gerardo Hernandez",
+        "profesion": "desarrollador Full Stack Jr",
+        "background": "url('../../../assets/img/bg-banner.png')",
+        "ubicacion": "Comodoro Rivadavia, Chubut",
+        "email": "lghg1993@gmail.com",
+        "instagram": "https://z-p15.www.instagram.com/luishg93/",
+        "facebook": "https://www.facebook.com/luis.hernandezgutierrez.718",
+        "fotoPerfil": "../../assets/img/fotoPerfil.jpg",
+        "acercaDe": "Mi nombre es Luis Gerardo Hernandez, venezolano de nacimiento. Soy recién egresado como Técnico en programacion, por lo que puedo autodenominarme como Desarrollador Full Stack Jr. Nesciunt animi ratione aliquam similique ut eos eum ipsa, recusandae incidunt adipisci est praesentium, perferendis qui architecto possimus tempora harum assumenda blanditiis.",
+        "experiencia": [
+            {
+                "imagen":"../../assets/img/logoCCS.png",
+                "fechaInicio":"2017",
+                "fechaFin": "2019",
+                "cargo": "(QA) Quality Assurance",
+                "nombre": "Contact Centes Solutions",
+                "descripcion": "Nesciunt animi ratione aliquam similique ut eos eum ipsa, recusandae incidunt adipisci est praesentium, perferendis qui architecto possimus tempora harum assumenda blanditiis"
+
+            },
+            {
+                "imagen":"",
+                "fechaInicio":"2016",
+                "fechaFin": "2017",
+                "cargo": "Encargado",
+                "nombre": "Busca Gomas RD",
+                "descripcion": "Nesciunt animi ratione aliquam similique ut eos eum ipsa, recusandae incidunt adipisci est praesentium, perferendis qui architecto possimus tempora harum assumenda blanditiis"
+            }
+        ],
+        "estudios": [
+            {
+                "imagen":"../../assets/img/logoTecLab.png",
+                "fechaInicio":"2019",
+                "fechaFin": "2021",
+                "titulo": "Tecnico en Programacion",
+                "nombre": "Teclab, Instituto Técnico Superior",
+                "descripcion": "Nesciunt animi ratione aliquam similique ut eos eum ipsa, recusandae incidunt adipisci est praesentium, perferendis qui architecto possimus tempora harum assumenda blanditiis"
+            }
+        ],
+        "proyectos": [
+            {
+                "nombre": "Nombre de mi Proyecto",
+                "descripcion": "aqui va la descripcion de mi proyecto. Hablemos de el",
+                "link": "https://www.google.com/?hl=es"
+            }
+        ],
+        "hardSkills": [
+            {
+                "habilidad": "HTML",
+                "capacidad": "90"
+            },
+            {
+                "habilidad": "CSS",
+                "capacidad": "75"
+            },
+            {
+                "habilidad": "JS",
+                "capacidad": "60"
+            }
+        ],
+        "softSkills": [
+            {
+                "habilidad": "organizacion"
+            },
+            {
+                 "habilidad": "proactividad"
+            },
+            {
+                "habilidad": "empatia"
+            },
+            {
+                "habilidad": "colaboracion"
+            }
+        ]
+    }

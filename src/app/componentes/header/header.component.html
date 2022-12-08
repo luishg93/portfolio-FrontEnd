@@ -1,0 +1,127 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img [src]="miPortfolio?.imgArgentinaPrograma" alt="Logo Argentina Programa" width="auto" height="80" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{miPortfolio?.instagram}}" target="_blank"><i class="fa-brands fa-instagram m p-2"></i>Instagram</a>
+                <a class="nav-link" href="{{miPortfolio?.facebook}}" target="_blank"><i class="fa-brands fa-facebook p-2"></i>Facebook</a>
+                <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#signUpPage"><i class="fa-solid fa-user p-2"></i>Registro</a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#signInPage" href="#"><i class="fa-solid fa-right-to-bracket p-2"></i>Ingresar</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--Sign Up Page-->
+<div class="modal" tabindex="-1" id="signUpPage" aria-labelledby="signUpLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title text-center w-100 font-weight-bold" id="signUpLabel">Registrarse</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body mx-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fa-solid fa-user grey-text fs-2"></i></span>
+                    </div>
+                    <input type="text" class="form-control validate" placeholder="Tu Nombre" aria-label="Tu Nombre">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fa-solid fa-envelope grey-text fs-2"></i></span>
+                    </div>
+                    <input type="email" class="form-control validate" placeholder="Tu Email" aria-label="Tu Email" required>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fa-solid fa-lock grey-text fs-2"></i></span>
+                    </div>
+                    <input type="password" class="form-control validate" placeholder="Tu Contraseña" aria-label="Tu Contraseña">
+                </div>
+                <!--<div class="md-form mb-5">
+                    <i class="fa-solid fa-user grey-text"></i>
+                    <input type="text" class="form-control validate">
+                    <label for="" data-bs-error="wrong" data-bs-success="right">Tu Nombre</label>
+                </div>
+                <div class="md-form mb-5">
+                    <i class="fas fa-envelope prefix grey-text"></i>
+                    <input type="email" class="form-control validate">
+                    <label for="" data-bs-error="wrong" data-bs-success="right">Tu Email</label>
+                </div>
+                <div class="md-form mb-5">
+                    <i class="fas fa-lock prefix grey-text"></i>
+                    <input type="password" class="form-control validate">
+                    <label for="" data-bs-error="wrong" data-bs-success="right">Tu Contraseña</label>
+                </div>-->
+            </div>
+
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-primary">Registrarse</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!--Sign In Page-->
+<div class="modal" tabindex="-1" id="signInPage" aria-labelledby="signInLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title text-center w-100 font-weight-bold" id="signInLabel">Ingresar</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body mx-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fa-solid fa-envelope grey-text fs-2"></i></span>
+                    </div>
+                    <input type="email" class="form-control validate" placeholder="Tu Email" aria-label="Tu Email" required>
+                </div>
+                <div class="input-group mb-1">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fa-solid fa-lock grey-text fs-2"></i></span>
+                    </div>
+                    <input type="password" class="form-control validate" placeholder="Tu Contraseña" aria-label="Tu Contraseña">
+                    <p class="font-small blue-text d-flex justify-content-center w-100 mt-3">Olvidé mi&nbsp;<a href="#" class="blue-text ml-1">Contraseña?</a></p>
+                </div>
+                <div class="text-center mb-2">
+                    <button type="button" class="btn btn-primary btn-block">Ingresar</button>
+                </div>
+                
+                <p class="font-small dark-gray-text d-flex justify-content-center">o ingresa con:</p>
+                <div class="row my-3 justify-content-center">
+                    <button type="button" class="btn btn-primary"><i class="fa-brands fa-facebook text-center"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="fa-brands fa-twitter text-center"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-brands fa-google-plus-g text-center"></i></button>
+                </div>
+            </div>
+
+            <div class="modal-footer d-flex justify-content-center">
+                
+            </div>
+            
+
+            
+        </div>
+    </div>
+</div>
+
+
+<!--Con ngStyle podemos asignar propiedades CSS a un elemento HTML, en este elemenento estamos asignando a la propiedad background-image la informacion obtenida de nuestra variable miPortfolio-->
+<div class="banner" [ngStyle]="{'background-image': miPortfolio?.background}"> <!--Este div contiene un backgroundimage-->
+    <div class="banner--transparencia">
+        <h1>
+            <!--Realizamos la interpolacion con la variable definida en el .ts de nuestro 
+            componente-->
+            {{miPortfolio?.nombre}}
+        </h1>
+        <h3>{{miPortfolio?.profesion}}</h3>
+        <i class="fa-solid fa-square-pen p-1 h3 m-0 pointer"></i>
+    </div>
+</div>

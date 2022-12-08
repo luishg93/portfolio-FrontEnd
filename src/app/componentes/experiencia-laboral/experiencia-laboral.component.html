@@ -1,0 +1,29 @@
+<section class="row"><!--Sección Experiencia Laboral. Contiene información referente
+    al historial laboral. Logotipo de Empresa, Periodo Laboral, Nombre de Empresa, Descripción de puesto. Boton + agrega nuevas experiencias laborales (JS)-->
+    <h2 class="linea mb-4 col-sm-12 col-md-12 col-lg-12">Experiencia Laboral</h2>
+    <ul class="list-group">
+        <li id="experienciaLaboral" class="list-group-item  border border-0" *ngFor="let experiencia of experienciaLista">
+            <div id="experienciaLaboral" class="experienciaLaboral row">
+                <div class="imgTitulo col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <img class="img-fluid" [src]="experiencia.imagen" alt="Imagen de Empresa">
+                    </div>
+                    <p class="mt-3 mb-2"><time>{{experiencia.fechaInicio}}</time> - <time>{{experiencia.fechaFin}}</time></p>
+                    <strong><p>{{experiencia.cargo}}</p></strong>
+                </div>
+                <div class="tituloTexto sm-12 col-md-8 col-lg-8">
+                    <h3>{{experiencia.nombre}}</h3>
+                    <p>{{experiencia.descripcion}}</p>
+                </div>
+            </div>
+           
+            <div>
+                <i class="fa-solid fa-square-plus p-1 h3 m-0 pointer"></i>
+                <i #cerrar class="fa-solid fa-square-xmark p-1 h3 m-0 pointer"></i>
+                <i class="fa-solid fa-square-pen p-1 h3 m-0 pointer"></i>
+            </div>
+        </li>
+    </ul>
+    
+    
+</section>

@@ -1,0 +1,79 @@
+<!--Aptitudes y Habilidades. Contiene información referente
+a las aptitudes y habilidades. Espacio Dinámico, Expresado en Porcentajes, Idiomas, Liderazgo, Proactividad, Conocimiento en Tecnologias.-->
+<h2 class="linea mb-4 mt-3 col-sm-12 col-md-12 col-lg-12">Habilidades Duras</h2>
+
+<div class="row">
+    <ul class="list-group skills">
+        <li class="skill" *ngFor="let hardSkill of hardSkillsLista">
+            <div class="col-sm-12 col-md-4 col-lg-4 text-center ">
+                <h3 class="mb-3">{{hardSkill.habilidad}}</h3>
+                <circle-progress
+                    [percent]="85"
+                    [radius]="100"
+                    [outerStrokeWidth]="12"
+                    [innerStrokeWidth]="3"
+                    [titleFontSize]="'2rem'"
+                    [showSubtitle]="false"
+                    [outerStrokeColor]="'#78C000'"
+                    [innerStrokeColor]="'#C7E596'"
+                    [animation]="true"
+                    [animationDuration]="700"
+                ></circle-progress>
+            </div>
+        </li>
+        <!--<li class="skill">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3 class="text-center mb-3">CSS</h3>
+                <div class="progress yellow mb-3">
+                    <span class="progress-left">
+                        <span class="progress-bar">
+                            
+                        </span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar">
+        
+                        </span>
+                    </span>
+                    <div class="progress-value">75%</div>
+                </div>
+            </div>
+        </li>
+        <li class="skill">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3 class="text-center mb-3">JavaScript</h3>
+                <div class="progress pink mb-3">
+                    <span class="progress-left">
+                        <span class="progress-bar">
+                            
+                        </span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar">
+        
+                        </span>
+                    </span>
+                    <div class="progress-value">60%</div>
+                </div>
+            </div>
+        </li>-->
+    </ul>
+    
+
+    
+
+    <!--3ra habilidad-->
+
+    
+    <div>
+        <i class="fa-solid fa-square-plus p-1 h3 m-0 pointer"></i>
+        <i class="fa-solid fa-square-xmark p-1 h3 m-0 pointer"></i>
+
+    </div>
+    
+
+    <!--2da habilidad-->
+
+    
+    
+</div>

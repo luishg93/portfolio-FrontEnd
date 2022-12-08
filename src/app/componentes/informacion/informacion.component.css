@@ -1,0 +1,18 @@
+/*Perfil*/
+.imagenPerfil {
+    border-radius: 50%;
+    overflow: hidden;
+    margin:-8rem auto 0 auto;
+    padding: 0;
+
+}
+
+@media (max-width: 767px) {
+    .imagenPerfil {
+        width: 60%;
+    }
+}
+
+.infoPersonal {
+    margin-bottom: 1px;
+}

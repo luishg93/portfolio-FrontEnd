@@ -1,0 +1,26 @@
+/*****Header****/
+/*Navegacion*/
+.navbar {
+    height: auto;
+}
+
+/*Banner*/
+.banner {
+    background-image: url('../../../assets/img/bg-banner.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.banner--transparencia {
+    background-color: rgba(0, 0, 0, .22);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner--transparencia h1, .banner--transparencia h3 {
+    font-weight: 700;
+    color: #fff;
+}
