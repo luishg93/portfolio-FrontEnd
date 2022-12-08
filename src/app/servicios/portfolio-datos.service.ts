@@ -11,7 +11,7 @@ export class PortfolioDatosService {
 
   obtenerDatos():Observable<any> {
     return this.http.get('./assets/data/data.json');//Aca colocamos una URL a la que le aplicaremos un request
-    //luego debemos subscribirnos a nuestro servicio, a nuestro observable en el archivo .ts de nuestro componente
+    //Luego debemos subscribirnos a nuestro servicio, a nuestro observable en el archivo .ts de nuestro componente
     //para que este nos pase la informacion y poderla mostrar en el HTML
   }
 }
